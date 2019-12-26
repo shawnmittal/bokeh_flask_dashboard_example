@@ -1,13 +1,7 @@
-# Python/Bokeh/Flask - Dashboard App
+# Bokeh/Flask Dashboard Example
 
-Dashboard application with interactive charts.
+Initial code taken from [https://github.com/dradecic/Python-Bokeh-Flask--Dashboard-App](dradecic on github). Dashboard application with interactive charts. 
 
-## Requirements
+Code refactored to separate routing and charting python scripts. CSS and HTML templates changed to improve mobile and desktop compatability.
 
-Numpy, Pandas, Bokeh, and Flask are required:
-
-```bash
-pip install numpy pandas bokeh==1.2.0 flask
-```
-
-https://github.com/dradecic/Python-Bokeh-Flask--Dashboard-App
+Using generic titanic.csv dataset as demonstration.
